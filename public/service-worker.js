@@ -8,7 +8,8 @@ const dataCache = "data-cache-v1";
 // Files to cache
 const staticFilesToPreCache = [
   "/",
-  "/index.js",
+	"/index.js",
+	"/db.js",
   "/index.html",
 	"/manifest.webmanifest",
 	"/styles.css",
