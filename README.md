@@ -1,61 +1,78 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Analee Guerra's Homework 18 - Online/Offline Budget Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+An application in which a user is able to add expenses and deposits to their budget with or without an internet connection. Transactions (both deposits and expenses) may be made when offline and once the user is back online, the budget will update accordingly.
 
-Offline Functionality:
+## Table of Contents
 
-  * Enter deposits offline
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  * Enter expenses offline
+## Installation
 
-When brought back online:
+The application is deployed via Heroku and may be accessed via the following link: [Online/Offline Budget Tracker](https://fierce-caverns-47269.herokuapp.com/ "Budget App")
 
-  * Offline entries should be added to tracker.
+The application may also be installed as a PWA. Users can follow the instructions below, according to their device/ web browser.
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+**For iPhone users:**
 
-## Business Context
+1. Navigate to https://fierce-caverns-47269.herokuapp.com with Safari.
+2. Tap the Share button in Safari.
+3. Tap the icon labeled Add to Home Screen.
+4. Tap Add in the upper-right corner.
+5. Name your PWA, then tap Add in the upper-right corner.
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+**For Android users:**
 
+1. Navigate to https://fierce-caverns-47269.herokuapp.com with Chrome.
+2. Tap the menu button in the upper right corner of Chrome.
+3. Tap the icon labeled Add to Home Screen.
+4. Name your PWA, then tap Add below the promp.
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+To run the application locally, Visual Studio (VS) code and a web browser such as Google Chrome, are needed.
 
-- - -
+To run the application via VS code, the user must have installed and have MongoDB running. In a new terminal, the user must run the following command: `npm install` to install the necessary `node modules` and `package-lock.json`. Once the installs are complete, the application may be run via the following command: `node server.js` or `npm run start`.
 
-## Commit Early and Often
+## Usage
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Credits
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+[Node JS](https://nodejs.org/en/ "Node JS")
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+[Express JS](https://expressjs.com/ "Express JS")
 
-* Follow these guidelines for committing:
+[MongoDB](https://docs.mongodb.com/manual/ "MongoDB")
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+[Mongoose JS](https://mongoosejs.com/docs/guide.html "Mongoose JS")
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+[MongoDB Atlas](https://www.mongodb.com/cloud/atlas "Mongo DB Atlas")
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+[Heroku](https://devcenter.heroku.com/ "Heroku")
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+## License
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+None
 
-## Submission on BCS
+## Badges
 
-* You are required to submit the following:
+## Contributing
 
-  * the URL to the deployed application
+None
 
-  * the URL to the Github repository
+## Tests
 
+None
+
+## Questions
+
+**Git Hub:** [aguerra1508](https://github.com/aguerra1508 "Git Hub")
+
+**For questions or comments, email me at:** aguerra1508@gmail.com
