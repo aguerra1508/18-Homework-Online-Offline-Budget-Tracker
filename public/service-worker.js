@@ -1,5 +1,3 @@
-const { static } = require("express");
-
 // Testing if service worker is being read
 console.log("Hello from your service worker!");
 
