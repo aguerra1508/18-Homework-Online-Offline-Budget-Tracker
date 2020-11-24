@@ -43,6 +43,18 @@ To run the application via VS code, the user must have installed and have MongoD
 
 ## Usage
 
+Online Use:
+![](images/Online.png)
+
+Offline Use:
+![](images/Offline.png)
+
+Returning to Online Use:
+![](images/ReturnOnline.png)
+
+PWA Installation:
+![](images/Install.png)
+
 ## Credits
 
 [Node JS](https://nodejs.org/en/ "Node JS")
