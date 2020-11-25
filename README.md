@@ -75,6 +75,12 @@ None
 
 ## Badges
 
+![GitHub top language](https://img.shields.io/github/languages/top/aguerra1508/18-Homework-Online-Offline-Budget-Tracker)
+
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Ffierce-caverns-47269.herokuapp.com%2F)
+
+![GitHub](https://img.shields.io/github/license/aguerra1508/18-Homework-Online-Offline-Budget-Tracker)
+
 ## Contributing
 
 None
